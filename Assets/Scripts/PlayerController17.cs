@@ -9,7 +9,6 @@ public class PlayerController17 : MonoBehaviour
 
     float gravityModifier = 2.5f;
     int jumpTimes = 0;
-    bool onGround = false;
 
     Rigidbody playerRb;
 

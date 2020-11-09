@@ -35,7 +35,7 @@ public class MoveCubeZDirection : MonoBehaviour
         // Set parent under Player
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.collider.transform.SetParent(transform);
+            collision.gameObject.transform.SetParent(transform);
         }
     }
 
@@ -44,7 +44,7 @@ public class MoveCubeZDirection : MonoBehaviour
         // Remove parent under Player
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.collider.transform.SetParent(null);
+            collision.gameObject.transform.SetParent(null);
         }
     }
 }
