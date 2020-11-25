@@ -1,2 +1,1 @@
-# CodeMini2_17_Bryan-Ngo_Sheng_Yang
- 
+# CodeMini2_17_Bryan-Ngo-Sheng-Yang
